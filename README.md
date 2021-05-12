@@ -23,11 +23,11 @@ ________________________________________________________________________________
 
 История поисковиков до сих пор молчит о том кто собрал первый дистрибутив в мире я же не доказываю , а ставлю перед фактом что все идет к тому как я собирал его ранее на 16.04 ищут связанную ошибку об отсутствии /usr/bin/sip для QT4 и QT5 на данный момент я подготовил это для ubuntu 20.04 , но вы можете сделать и для более нового дистрибутива
 
+Inpack arhive sip-4.19.12.tar.gz
+
 Ubuntu copy folder sip-4.19.12 /tmp
 
 && cd /tmp/sip-4.19.12
-
-libpython3.8-dev_3.8.5-2~20.04_amd64.deb https://github.com/Griggorii/python3.8.5_ubuntu_20.04_new_rebuild_amd64.deb/releases/tag/python3.8.5_20.04_amd64.deb
 
 && sudo apt install libpython3.8-dev
 
@@ -61,7 +61,7 @@ accept the terms of the license copy yes to enter next generate new makefile
 
 example Do you accept the terms of the license? yes
 
-&& sudo make -i install
+&& sudo make -j4 && sudo make -i install
 
 && cd ~/
 
