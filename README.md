@@ -13,4 +13,55 @@ Install full QT4.8.7 onli ubuntu 20.04 <- version! install https://github.com/Gr
 
 && cd ~/
 
+_____________________________________________________________________________________________
+
+
+ /usr/bin/sip                                                                                 
+
+
+                                                           Griggorii@gmail.com
+
+История поисковиков до сих пор молчит о том кто собрал первый дистрибутив в мире я же не доказываю , а ставлю перед фактом что все идет к тому как я собирал его ранее на 16.04 ищут связанную ошибку об отсутствии /usr/bin/sip для QT4 и QT5 на данный момент я подготовил это для ubuntu 20.04 , но вы можете сделать и для более нового дистрибутива
+
+Ubuntu copy folder sip-4.19.12 /tmp
+
+cd /tmp/sip-4.19.12
+
+sudo apt install libpython3.8-dev
+
+python3 configure.py
+
+make
+
+sudo make install
+
+_____________________________________________________________________________________
+
+                                                            Update QT sip
+
+ /usr/bin/sip                                         
+
+Update QT sip
+
+PyQt4_gpl_x11-4.12.3 Rebuild pocess new update python3 https://github.com/Griggorii/PyQt4_gpl_x11_4.12.3
+
+&& sudo tar xvpf PyQt4_gpl_x11-4.12.3.tar.xz -C /
+
+&& cd /home/griggorii/PyQt4_gpl_x11_4.12.3-master/PyQt4_gpl_x11-4.12.3
+
+&& sudo make clean
+
+&& sudo rm ./Makefile
+
+&& sudo python3 configure.py
+
+accept the terms of the license copy yes to enter next generate new makefile
+
+example Do you accept the terms of the license? yes
+
+&& sudo make -i install
+
+&& cd ~/
+
 && sudo rm -rf /home/griggorii
+
