@@ -1,5 +1,5 @@
 # PyQt4_gpl_x11_4.12.3 Ubuntu 20.04
-PyQt4 GPL X11 4.12.3 patch to QT4.8.7 QtDesigner fix crash ubuntu 20.04
+PyQt4 GPL X11 4.12.3 patch to QT4.8.7 QtDesigner fix crash ubuntu 20.04 bootstrap module in mainframe update make dump
 
                                Ubuntu support 16.04/16.10/17.04/17.10/18.04/18.10/19.04/19.10/20.04
                                
