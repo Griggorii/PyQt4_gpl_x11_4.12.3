@@ -25,15 +25,15 @@ ________________________________________________________________________________
 
 Ubuntu copy folder sip-4.19.12 /tmp
 
-cd /tmp/sip-4.19.12
+&& cd /tmp/sip-4.19.12
 
-sudo apt install libpython3.8-dev
+&& sudo apt install libpython3.8-dev
 
-python3 configure.py
+&& python3 configure.py
 
-make
+&& make
 
-sudo make install
+&& sudo make install
 
 _____________________________________________________________________________________
 
