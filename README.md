@@ -27,6 +27,8 @@ Ubuntu copy folder sip-4.19.12 /tmp
 
 && cd /tmp/sip-4.19.12
 
+libpython3.8-dev_3.8.5-2~20.04_amd64.deb https://github.com/Griggorii/python3.8.5_ubuntu_20.04_new_rebuild_amd64.deb/releases/tag/python3.8.5_20.04_amd64.deb
+
 && sudo apt install libpython3.8-dev
 
 && python3 configure.py
